@@ -1,0 +1,14 @@
+﻿<Window x:Class="Task_WPF17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_WPF17"
+        mc:Ignorable="d"
+        Title="Task 17" Height="500" Width="400">
+    <Grid>
+        <local:CollorSetting x:Name="colorSelect" HorizontalAlignment="Left" Height="223" Margin="30,38,0,0" VerticalAlignment="Top" Width="311"/>
+        <Button x:Name="ColorButton" Content="Получить цвет" HorizontalAlignment="Left" Margin="61,319,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_Click_1"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="266,379,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+    </Grid>
+</Window>
